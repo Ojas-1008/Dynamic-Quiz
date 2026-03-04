@@ -6,6 +6,8 @@ A beautiful, interactive **Single Page Application (SPA)** quiz engine that test
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
 
+🔗 **Live Demo:** [https://ojas-1008.github.io/Dynamic-Quiz/](https://ojas-1008.github.io/Dynamic-Quiz/)
+
 ---
 
 ## 🎯 Features
