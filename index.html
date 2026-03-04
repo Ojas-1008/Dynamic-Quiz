@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Main content of the quiz application -->
+    <main>
+        <!-- Start screen section -->
+        <section id="start-screen">
+            <h1>JS Mastery Quiz</h1>
+            <input type="text" placeholder="Enter Your Name" id="player-name-input">
+            <button id="start-quiz-btn">Start Quiz</button>
+        </section>
+
+        <!-- Quiz screen section -->
+        <section id="quiz-screen">
+            <div></div>
+            <h2 id="question-text"></h2>
+            <div id="options-grid"></div>
+            <button id="next-question-btn">Next Question</button>
+        </section>
+
+        <!-- Results screen section -->
+        <section id="result-screen">
+            <h1>Quiz Over!</h1>
+            <p id="final-score"></p>
+            <div id="high-scores-list">
+                <ol></ol>
+            </div>
+            <button id="restart-btn">Restart</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
